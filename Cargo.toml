@@ -1,0 +1,18 @@
+[package]
+name = "clap-action-command"
+version = "0.1.0"
+edition = "2021"
+license = "BSD-1-Clause"
+description = "A command-map pattern layered on Clap subcommands"
+authors = ["Christopher R. Miller <xpm@mysteriouspants.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+snafu = "0.7"
+vec1 = "1"
+
+[dependencies.clap]
+version = "4"
+default-features = false
+features = ["std"]
